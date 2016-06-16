@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="TTViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Vts-U2-k9h">
+                                <rect key="frame" x="13" y="100" width="349" height="31"/>
+                                <connections>
+                                    <action selector="progressDragDidEnd:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="PXW-ao-Kv2"/>
+                                    <action selector="progressDragDidEnd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="soc-hy-chY"/>
+                                    <action selector="progressValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="Mwr-kt-KTu"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tTV-je-AN7">
+                                <rect key="frame" x="15" y="74" width="42" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u67-Wf-oAU">
+                                <rect key="frame" x="318" y="74" width="42" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="boY-xd-Qak">
+                                <rect key="frame" x="300" y="150" width="60" height="30"/>
+                                <color key="backgroundColor" red="0.23529411759999999" green="0.2901960784" blue="0.34901960780000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="WbG-qR-TK3"/>
+                                    <constraint firstAttribute="height" constant="30" id="efB-EE-MRd"/>
+                                </constraints>
+                                <state key="normal" title="停止">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="stopAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Jw-8d-tjj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OQi-0Z-UdH">
+                                <rect key="frame" x="15" y="150" width="65" height="30"/>
+                                <color key="backgroundColor" red="0.74509803919999995" green="0.82352941180000006" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Sie-mS-S07"/>
+                                    <constraint firstAttribute="width" constant="65" id="gnP-Pw-Teb"/>
+                                </constraints>
+                                <state key="normal" title="播放">
+                                    <color key="titleColor" red="0.88865840519999995" green="0.26196120690000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="playActoin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mvl-kN-6XW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Vts-U2-k9h" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="a7M-1J-a4Y"/>
+                            <constraint firstItem="boY-xd-Qak" firstAttribute="trailing" secondItem="Vts-U2-k9h" secondAttribute="trailing" id="aGO-5d-8K3"/>
+                            <constraint firstItem="OQi-0Z-UdH" firstAttribute="leading" secondItem="Vts-U2-k9h" secondAttribute="leading" id="fpY-wj-meX"/>
+                            <constraint firstItem="Vts-U2-k9h" firstAttribute="top" secondItem="tTV-je-AN7" secondAttribute="bottom" constant="5" id="jvL-Co-Bh7"/>
+                            <constraint firstItem="Vts-U2-k9h" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="100" id="lDU-Aq-DZ1"/>
+                            <constraint firstAttribute="trailing" secondItem="Vts-U2-k9h" secondAttribute="trailing" constant="15" id="nd7-Sb-6hy"/>
+                            <constraint firstItem="OQi-0Z-UdH" firstAttribute="top" secondItem="Vts-U2-k9h" secondAttribute="bottom" constant="20" id="ne0-k0-QOD"/>
+                            <constraint firstItem="Vts-U2-k9h" firstAttribute="top" secondItem="u67-Wf-oAU" secondAttribute="bottom" constant="5" id="phN-k4-l90"/>
+                            <constraint firstItem="boY-xd-Qak" firstAttribute="top" secondItem="Vts-U2-k9h" secondAttribute="bottom" constant="20" id="xQ4-LL-5j5"/>
+                            <constraint firstItem="u67-Wf-oAU" firstAttribute="trailing" secondItem="Vts-U2-k9h" secondAttribute="trailing" id="yL2-OP-eLb"/>
+                            <constraint firstItem="tTV-je-AN7" firstAttribute="leading" secondItem="Vts-U2-k9h" secondAttribute="leading" id="yXr-XZ-dVU"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="currentTimeLabel" destination="tTV-je-AN7" id="o8x-Wf-Us0"/>
+                        <outlet property="durationLabel" destination="u67-Wf-oAU" id="B6Q-8S-jDR"/>
+                        <outlet property="playButton" destination="OQi-0Z-UdH" id="ztV-Cq-wSY"/>
+                        <outlet property="playerProgress" destination="Vts-U2-k9h" id="WUM-Db-mSb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="340.5" y="370.5"/>
+        </scene>
+    </scenes>
+</document>

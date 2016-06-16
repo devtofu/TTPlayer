@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCFAF2D91D12A63C005CC802 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFAF2D81D12A63C005CC802 /* main.m */; };
+		CCFAF2DC1D12A63C005CC802 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFAF2DB1D12A63C005CC802 /* AppDelegate.m */; };
+		CCFAF2DF1D12A63C005CC802 /* TTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFAF2DE1D12A63C005CC802 /* TTViewController.m */; };
+		CCFAF2E21D12A63C005CC802 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCFAF2E01D12A63C005CC802 /* Main.storyboard */; };
+		CCFAF2E41D12A63C005CC802 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCFAF2E31D12A63C005CC802 /* Assets.xcassets */; };
+		CCFAF2E71D12A63C005CC802 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCFAF2E51D12A63C005CC802 /* LaunchScreen.storyboard */; };
+		CCFAF2F21D12A63C005CC802 /* TTPlayerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFAF2F11D12A63C005CC802 /* TTPlayerDemoTests.m */; };
+		CCFAF2FF1D12A6A3005CC802 /* TTPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFAF2FE1D12A6A3005CC802 /* TTPlayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCFAF2EE1D12A63C005CC802 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCFAF2CC1D12A63C005CC802 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCFAF2D31D12A63C005CC802;
+			remoteInfo = TTPlayerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCFAF2D41D12A63C005CC802 /* TTPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCFAF2D81D12A63C005CC802 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCFAF2DA1D12A63C005CC802 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCFAF2DB1D12A63C005CC802 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCFAF2DD1D12A63C005CC802 /* TTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTViewController.h; sourceTree = "<group>"; };
+		CCFAF2DE1D12A63C005CC802 /* TTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTViewController.m; sourceTree = "<group>"; };
+		CCFAF2E11D12A63C005CC802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCFAF2E31D12A63C005CC802 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCFAF2E61D12A63C005CC802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCFAF2E81D12A63C005CC802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCFAF2ED1D12A63C005CC802 /* TTPlayerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTPlayerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCFAF2F11D12A63C005CC802 /* TTPlayerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTPlayerDemoTests.m; sourceTree = "<group>"; };
+		CCFAF2F31D12A63C005CC802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCFAF2FD1D12A6A3005CC802 /* TTPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTPlayer.h; sourceTree = "<group>"; };
+		CCFAF2FE1D12A6A3005CC802 /* TTPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTPlayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCFAF2D11D12A63C005CC802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFAF2EA1D12A63C005CC802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCFAF2CB1D12A63C005CC802 = {
+			isa = PBXGroup;
+			children = (
+				CCFAF2FC1D12A6A3005CC802 /* TTPlayer */,
+				CCFAF2D61D12A63C005CC802 /* TTPlayerDemo */,
+				CCFAF2F01D12A63C005CC802 /* TTPlayerDemoTests */,
+				CCFAF2D51D12A63C005CC802 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCFAF2D51D12A63C005CC802 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCFAF2D41D12A63C005CC802 /* TTPlayerDemo.app */,
+				CCFAF2ED1D12A63C005CC802 /* TTPlayerDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCFAF2D61D12A63C005CC802 /* TTPlayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CCFAF2DA1D12A63C005CC802 /* AppDelegate.h */,
+				CCFAF2DB1D12A63C005CC802 /* AppDelegate.m */,
+				CCFAF2DD1D12A63C005CC802 /* TTViewController.h */,
+				CCFAF2DE1D12A63C005CC802 /* TTViewController.m */,
+				CCFAF2E01D12A63C005CC802 /* Main.storyboard */,
+				CCFAF2E31D12A63C005CC802 /* Assets.xcassets */,
+				CCFAF2E51D12A63C005CC802 /* LaunchScreen.storyboard */,
+				CCFAF2E81D12A63C005CC802 /* Info.plist */,
+				CCFAF2D71D12A63C005CC802 /* Supporting Files */,
+			);
+			path = TTPlayerDemo;
+			sourceTree = "<group>";
+		};
+		CCFAF2D71D12A63C005CC802 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCFAF2D81D12A63C005CC802 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCFAF2F01D12A63C005CC802 /* TTPlayerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCFAF2F11D12A63C005CC802 /* TTPlayerDemoTests.m */,
+				CCFAF2F31D12A63C005CC802 /* Info.plist */,
+			);
+			path = TTPlayerDemoTests;
+			sourceTree = "<group>";
+		};
+		CCFAF2FC1D12A6A3005CC802 /* TTPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				CCFAF2FD1D12A6A3005CC802 /* TTPlayer.h */,
+				CCFAF2FE1D12A6A3005CC802 /* TTPlayer.m */,
+			);
+			name = TTPlayer;
+			path = ../TTPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCFAF2D31D12A63C005CC802 /* TTPlayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCFAF2F61D12A63C005CC802 /* Build configuration list for PBXNativeTarget "TTPlayerDemo" */;
+			buildPhases = (
+				CCFAF2D01D12A63C005CC802 /* Sources */,
+				CCFAF2D11D12A63C005CC802 /* Frameworks */,
+				CCFAF2D21D12A63C005CC802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTPlayerDemo;
+			productName = TTPlayerDemo;
+			productReference = CCFAF2D41D12A63C005CC802 /* TTPlayerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCFAF2EC1D12A63C005CC802 /* TTPlayerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCFAF2F91D12A63C005CC802 /* Build configuration list for PBXNativeTarget "TTPlayerDemoTests" */;
+			buildPhases = (
+				CCFAF2E91D12A63C005CC802 /* Sources */,
+				CCFAF2EA1D12A63C005CC802 /* Frameworks */,
+				CCFAF2EB1D12A63C005CC802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCFAF2EF1D12A63C005CC802 /* PBXTargetDependency */,
+			);
+			name = TTPlayerDemoTests;
+			productName = TTPlayerDemoTests;
+			productReference = CCFAF2ED1D12A63C005CC802 /* TTPlayerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCFAF2CC1D12A63C005CC802 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TT;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "iOS Tofu.";
+				TargetAttributes = {
+					CCFAF2D31D12A63C005CC802 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					CCFAF2EC1D12A63C005CC802 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CCFAF2D31D12A63C005CC802;
+					};
+				};
+			};
+			buildConfigurationList = CCFAF2CF1D12A63C005CC802 /* Build configuration list for PBXProject "TTPlayerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCFAF2CB1D12A63C005CC802;
+			productRefGroup = CCFAF2D51D12A63C005CC802 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCFAF2D31D12A63C005CC802 /* TTPlayerDemo */,
+				CCFAF2EC1D12A63C005CC802 /* TTPlayerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCFAF2D21D12A63C005CC802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCFAF2E71D12A63C005CC802 /* LaunchScreen.storyboard in Resources */,
+				CCFAF2E41D12A63C005CC802 /* Assets.xcassets in Resources */,
+				CCFAF2E21D12A63C005CC802 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFAF2EB1D12A63C005CC802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCFAF2D01D12A63C005CC802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCFAF2DF1D12A63C005CC802 /* TTViewController.m in Sources */,
+				CCFAF2DC1D12A63C005CC802 /* AppDelegate.m in Sources */,
+				CCFAF2FF1D12A6A3005CC802 /* TTPlayer.m in Sources */,
+				CCFAF2D91D12A63C005CC802 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFAF2E91D12A63C005CC802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCFAF2F21D12A63C005CC802 /* TTPlayerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCFAF2EF1D12A63C005CC802 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCFAF2D31D12A63C005CC802 /* TTPlayerDemo */;
+			targetProxy = CCFAF2EE1D12A63C005CC802 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCFAF2E01D12A63C005CC802 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCFAF2E11D12A63C005CC802 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCFAF2E51D12A63C005CC802 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCFAF2E61D12A63C005CC802 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCFAF2F41D12A63C005CC802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCFAF2F51D12A63C005CC802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCFAF2F71D12A63C005CC802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTPlayerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tofu.TTPlayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCFAF2F81D12A63C005CC802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTPlayerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tofu.TTPlayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CCFAF2FA1D12A63C005CC802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TTPlayerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tofu.TTPlayerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTPlayerDemo.app/TTPlayerDemo";
+			};
+			name = Debug;
+		};
+		CCFAF2FB1D12A63C005CC802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TTPlayerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tofu.TTPlayerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTPlayerDemo.app/TTPlayerDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCFAF2CF1D12A63C005CC802 /* Build configuration list for PBXProject "TTPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCFAF2F41D12A63C005CC802 /* Debug */,
+				CCFAF2F51D12A63C005CC802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCFAF2F61D12A63C005CC802 /* Build configuration list for PBXNativeTarget "TTPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCFAF2F71D12A63C005CC802 /* Debug */,
+				CCFAF2F81D12A63C005CC802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCFAF2F91D12A63C005CC802 /* Build configuration list for PBXNativeTarget "TTPlayerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCFAF2FA1D12A63C005CC802 /* Debug */,
+				CCFAF2FB1D12A63C005CC802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCFAF2CC1D12A63C005CC802 /* Project object */;
+}
